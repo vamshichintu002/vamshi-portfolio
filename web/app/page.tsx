@@ -180,11 +180,6 @@ export default function Page() {
         <Container>
           <div className="flex items-center justify-between py-4">
             <a href="#" className="flex items-center gap-3">
-              <div className="grid h-10 w-10 place-items-center rounded-xl bg-gradient-to-br from-blue-500/25 to-violet-500/25 ring-1 ring-blue-500/20">
-                <span className="text-sm font-bold tracking-tight">
-                  VS
-                </span>
-              </div>
               <div className="leading-tight">
                 <p className="text-sm font-semibold">Vamshi Sudula</p>
                 <p className="text-xs text-zinc-600 dark:text-zinc-300">
