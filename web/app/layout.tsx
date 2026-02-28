@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "Vamshi Sudula — Portfolio",
   description:
     "AI & ML Engineer portfolio of Vamshi Sudula — projects, skills, resume, and contact.",
-  metadataBase: new URL("https://example.com"),
+  metadataBase: new URL("https://web-three-gilt-30.vercel.app"),
   openGraph: {
     title: "Vamshi Sudula — Portfolio",
     description:
