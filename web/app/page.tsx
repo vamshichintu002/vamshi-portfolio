@@ -110,7 +110,7 @@ function SectionTitle({
   return (
     <div className="mb-10">
       {kicker ? (
-        <p className="text-sm font-medium tracking-wider text-blue-400/90">
+        <p className="font-display text-base font-semibold tracking-wide text-blue-400/90">
           {kicker}
         </p>
       ) : null}
@@ -237,7 +237,7 @@ export default function Page() {
               <p className="mt-3 text-lg font-medium text-zinc-700 dark:text-zinc-200">
                 AI & ML Engineer
               </p>
-              <p className="mt-5 max-w-2xl text-base leading-7 text-zinc-600 dark:text-zinc-300">
+              <p className="font-display mt-5 max-w-2xl text-lg leading-7 text-zinc-600 dark:text-zinc-300">
                 Click on menu to know more about me.
               </p>
 
