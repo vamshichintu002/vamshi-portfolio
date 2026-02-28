@@ -3,7 +3,7 @@ import { Geist_Mono, Lobster_Two, Montserrat } from "next/font/google";
 import "./globals.css";
 
 const montserrat = Montserrat({
-  variable: "--font-geist-sans",
+  variable: "--font-sans",
   subsets: ["latin"],
   display: "swap",
 });
@@ -17,7 +17,7 @@ const lobsterTwo = Lobster_Two({
 });
 
 const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+  variable: "--font-mono",
   subsets: ["latin"],
   display: "swap",
 });
