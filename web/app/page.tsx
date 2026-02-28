@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { ThemeToggle } from "./components/ThemeToggle";
 
 type NavItem = { label: string; href: string };
 
@@ -201,6 +202,7 @@ export default function Page() {
             </nav>
 
             <div className="flex items-center gap-2">
+              <ThemeToggle />
               <a
                 href={socials.github}
                 target="_blank"
