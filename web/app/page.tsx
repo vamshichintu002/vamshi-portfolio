@@ -114,7 +114,7 @@ function SectionTitle({
           {kicker}
         </p>
       ) : null}
-      <h2 className="mt-3 text-3xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-50 sm:text-4xl">
+      <h2 className="font-display mt-3 text-3xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-50 sm:text-4xl">
         {title}
       </h2>
       {subtitle ? (
@@ -231,7 +231,7 @@ export default function Page() {
                 <Pill>Generative AI</Pill>
               </div>
 
-              <h1 className="mt-5 text-4xl font-semibold tracking-tight text-zinc-900 dark:text-white sm:text-5xl">
+              <h1 className="font-display mt-5 text-4xl font-semibold tracking-tight text-zinc-900 dark:text-white sm:text-5xl">
                 Vamshi Sudula
               </h1>
               <p className="mt-3 text-lg font-medium text-zinc-700 dark:text-zinc-200">
